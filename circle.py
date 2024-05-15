@@ -1,9 +1,10 @@
 """FEATURE 3: CIRCLE"""
+from math import pi
 
 
 def area(radius: float) -> float:
-    return 3.14 * radius * radius
+    return pi * radius * radius
 
 
 def perimeter(radius: float) -> float:
-    return 2 * 3.14 * radius
+    return 2 * pi * radius
